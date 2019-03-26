@@ -18,7 +18,7 @@ export class AppComponent {
   editar_noticia= null;
 
   salvar() {
-    if (this.editar_noticia){
+    if (this.editar_noticia !=null){
       this.editar_noticia.titulo = this.titulo;
       this.editar_noticia.conteudo= this.conteudo;
       this.editar_noticia.descricao = this.descricao;
